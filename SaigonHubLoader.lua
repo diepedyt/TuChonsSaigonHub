@@ -1,7 +1,4 @@
-_G.Scripts = {
-    o = "yek",
-    d = "b7UfqFzCzF"
-}
+_G.Scripts = {o = "yek",d = "b7UfqFzCzF"}
 
 repeat task.wait() until game:IsLoaded()
 
