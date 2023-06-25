@@ -4,6 +4,11 @@ _G.Games = {
 }
 
 _G.Scripts = {o = _G.Vers,d = "bstlar.com/1r/Fia"}
+if _G.Games then
+	for i,v in pairs(_G.Games) do
+	_G.Scripts[i] = v
+	end
+end
 
 repeat task.wait() until game:IsLoaded()
 
