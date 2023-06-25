@@ -1,4 +1,4 @@
-_G.Scripts = {o = "yekemozewa",d = "bstlar.com/1r/Fia"}
+_G.Scripts = {o = "yekemozewa",d = "bstlar.com/1r/Fia",}
 
 repeat task.wait() until game:IsLoaded()
 
