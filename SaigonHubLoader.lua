@@ -1,4 +1,9 @@
-_G.Scripts = {o = "yekemozewa",d = "bstlar.com/1r/Fia",}
+_G.Vers = "yekemozewa"
+_G.Games = {
+	[10449761463] = "https://raw.githubusercontent.com/diepedyt/TuChonsSaigonHub/main/strongestbattleground.lua"
+}
+
+_G.Scripts = {o = _G.Vers,d = "bstlar.com/1r/Fia"}
 
 repeat task.wait() until game:IsLoaded()
 
